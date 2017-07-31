@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="com.checking.com.demoo.Add_creationTest"/>
+      <class name="com.checking.com.demoo.DemoTest"/>
+      <class name="com.checking.com.demoo.MobileMavenConstansTest"/>
+      <class name="com.checking.com.demoo.Verifying_AddTest"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.checking.com.demoo.Add_creationTest">
+        <methods>
+          <include name="enterData"/>
+          <include name="clickadsLink"/>
+        </methods>
+      </class> <!-- com.checking.com.demoo.Add_creationTest -->
+      <class name="com.checking.com.demoo.Verifying_AddTest">
+        <methods>
+          <include name="activation_Add"/>
+          <include name="lunch_UserUrl"/>
+        </methods>
+      </class> <!-- com.checking.com.demoo.Verifying_AddTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

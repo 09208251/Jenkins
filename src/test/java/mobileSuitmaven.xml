@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="com.checking.com.demoo.DemoTest"/>
+       <class name="com.checking.com.demoo.Add_creationTest"/>
+        <class name="com.checking.com.demoo.Verifying_AddTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

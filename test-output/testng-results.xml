@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44731" started-at="2017-07-30T07:39:25Z" finished-at="2017-07-30T07:40:10Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="44731" started-at="2017-07-30T07:39:25Z" finished-at="2017-07-30T07:40:10Z">
+      <class name="com.checking.com.demoo.Verifying_AddTest">
+        <test-method status="PASS" signature="activation_Add()[pri:0, instance:com.checking.com.demoo.Verifying_AddTest@5b275dab]" name="activation_Add" duration-ms="7364" started-at="2017-07-30T13:09:56Z" finished-at="2017-07-30T13:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activation_Add -->
+        <test-method status="PASS" signature="lunch_UserUrl()[pri:0, instance:com.checking.com.demoo.Verifying_AddTest@5b275dab]" name="lunch_UserUrl" duration-ms="6216" started-at="2017-07-30T13:10:04Z" finished-at="2017-07-30T13:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunch_UserUrl -->
+      </class> <!-- com.checking.com.demoo.Verifying_AddTest -->
+      <class name="com.checking.com.demoo.Add_creationTest">
+        <test-method status="PASS" signature="clickadsLink()[pri:0, instance:com.checking.com.demoo.Add_creationTest@523884b2]" name="clickadsLink" duration-ms="1897" started-at="2017-07-30T13:09:48Z" finished-at="2017-07-30T13:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickadsLink -->
+        <test-method status="PASS" signature="enterData()[pri:0, instance:com.checking.com.demoo.Add_creationTest@523884b2]" name="enterData" duration-ms="6430" started-at="2017-07-30T13:09:50Z" finished-at="2017-07-30T13:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterData -->
+      </class> <!-- com.checking.com.demoo.Add_creationTest -->
+      <class name="com.checking.com.demoo.DemoTest">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.checking.com.demoo.DemoTest@59fa1d9b]" name="launch" duration-ms="11948" started-at="2017-07-30T13:09:25Z" finished-at="2017-07-30T13:09:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.checking.com.demoo.DemoTest@59fa1d9b]" name="login" duration-ms="10781" started-at="2017-07-30T13:09:37Z" finished-at="2017-07-30T13:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.checking.com.demoo.DemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
